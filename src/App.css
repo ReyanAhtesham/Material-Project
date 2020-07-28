@@ -1,0 +1,168 @@
+.block {
+  height: 100%;
+}
+.pin-top {
+  position: relative;
+}
+
+.pin-bottom {
+  position: relative;
+}
+.pinned {
+  position: fixed !important;
+}
+.norm{
+  height:400px;
+  position: absolute;
+  border-radius: 15px;
+}
+.norma{
+
+  animation-duration: 5s;
+  animation-timing-function:ease-out;
+  left:850px;
+  top:700px;
+}
+.norme{
+  animation-duration: 5s;
+  animation-timing-function:ease-out;
+  right:400px;
+  top:800px;
+}
+.normi{
+  animation-duration: 5s;
+  animation-timing-function:ease-out;
+  top:900px;
+  right:100px;
+}
+@keyframes mymove{
+  from{
+    left:400px
+  }
+  to{
+    left:850px;
+    top:700px;
+  }
+}
+
+@keyframes yourmove{
+  from{
+    right:100px
+  }
+  to{
+    right:400px;
+    top:800px;
+  
+  }
+}
+
+@keyframes hismove{
+  from{
+    top:600px
+  }
+  to{
+    top:900px;
+    right:100px;
+  }
+}
+.heads{
+  font-family:"Alex Brush";
+  font-weight: bolder;
+  font-size:120px;
+  padding-top: 20px;
+}
+.subs{
+  font-family:"Alex Brush";
+  font-size: 40px; 
+  position: absolute;
+  left:20px;
+  bottom:-130px;
+}
+.cont{
+  font-size: 20px;
+  padding-right: 35px;
+}
+.pon{
+  height:200px;
+  width:180px;
+}
+.port{
+  height:1000px;
+}
+.hro{
+  height:800px;
+  position: absolute;
+  left:0px
+}
+.hra{
+  height:735px;
+}
+.pont{
+  height: 170px;
+  width: 170px;
+}
+.pont:hover{
+  height: 150px;
+  width: 150px;
+}
+.pant{
+  height: 150px;
+  width: 150px;
+}
+.pant:hover{
+  height: 130px;
+  width: 130px;
+}
+.Rew{
+  position: relative;
+  bottom: 25px;
+}
+.Row{
+  position: relative;
+  bottom: 25px;
+  font-size: 22px;
+}
+.c-1{
+  height:700px;
+}
+.c1{
+  padding-bottom: 500px;
+}
+.iio{
+  height:25%;
+  width:30%;
+}
+.must{
+  position: relative;
+  left:530px;
+  top:150px;
+  
+}
+.orlan{
+animation-name: orlando;
+animation-duration: 5s;
+animation-timing-function:ease-out;
+position: absolute;
+top:900px;
+right:100px;
+}
+@keyframes orlando{
+  from{
+    left:100px
+  }
+  to{
+    left:850px;
+    top:700px;
+  }
+}
+
+.Packa{
+  position: absolute;
+  right:555px;
+  top:640px;
+  z-index: 3;
+}
+.toxt{
+  position: absolute;
+  z-index: -3
+}
